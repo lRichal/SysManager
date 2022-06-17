@@ -6,7 +6,7 @@ namespace SysManager.API.admin
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World! Richard");
         }
     }
 }
