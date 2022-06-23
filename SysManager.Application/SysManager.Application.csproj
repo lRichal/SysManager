@@ -14,7 +14,6 @@
     <Folder Include="Data\MySql\Entities\" />
     <Folder Include="Data\MySql\Repositories\" />
     <Folder Include="Errors\" />
-    <Folder Include="Helpers\" />
     <Folder Include="Validators\" />
     <Folder Include="Services\" />
   </ItemGroup>

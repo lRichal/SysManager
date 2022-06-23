@@ -17,6 +17,7 @@ namespace SysManager.API.admin
         public void ConfigureServices(IServiceCollection services)
         {
             BeforeConfigureServices(services);
+            services.AddApiVersioning();
 
             services.AddMvc(options =>
             {
