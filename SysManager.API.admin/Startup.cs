@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using SysManager.Application.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,6 +19,7 @@ namespace SysManager.API.admin
         {
             BeforeConfigureServices(services);
             services.AddApiVersioning();
+            services.AddScoped<UserService>();
 
             services.AddMvc(options =>
             {

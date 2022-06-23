@@ -8,12 +8,27 @@ namespace SysManager.Application.Helpers
 {
     public static class Utils
     {
-        public static ResultData<T> SuccessData<T>(T data, bool success)
+        // vamos simplificar isso
+        // public static ResultData<T> SuccessData<T>(T data, bool success)
+        // {
+        //    var result = new ResultData<T>(data);
+        //    result.Success = success;
+        //    return result;
+        // }
+        public static ResultData<T> SuccessData<T>(T _data)
         {
-            var result = new ResultData<T>(data);
-            result.Success = success;
+            var result = new ResultData<T>(_data);
+            result.Success = true;
             return result;
         }
+        public static ResultData<T> ErrorData<T>(T _data)
+        {
+            var result = new ResultData<T>(_data);
+            result.Success = false;
+            return result;
+        }
+
+
 
         public static IActionResult Convert(ResultData _resultData)
         {
