@@ -15,7 +15,7 @@ namespace SysManager.Application.Services
 
         public async Task<ResultData> PostAsync(UserPostRequest request)
         {
-            var erros new List<string>();
+            var erros = new List<string>();
 
             if (request.UserName == "" || request.UserName == null)
                 erros.Add("Precisa informar a propriedade (UserName)");

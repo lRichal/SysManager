@@ -36,6 +36,7 @@ namespace SysManager.API.admin.Controllers
         public async Task<IActionResult> PostLogin([FromBody]UserPostRequest request)
         {
             Console.WriteLine("\r\n Inicio do processo \r\n");
+            Console.WriteLine("\r\n Fim do processo \r\n");
             return Utils.Convert(new ResultData(false));
             //return BadRequest("Requisicao falhou");
         }
