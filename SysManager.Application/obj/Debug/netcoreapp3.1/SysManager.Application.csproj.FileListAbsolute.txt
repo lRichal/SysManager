@@ -8,3 +8,4 @@ C:\Estudo\SysManager\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.A
 C:\Estudo\SysManager\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.dll
 C:\Estudo\SysManager\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.pdb
 C:\Estudo\SysManager\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.csproj.AssemblyReference.cache
+C:\Estudo\SysManager\SysManager.Application\bin\Debug\netcoreapp3.1\appsettings.json

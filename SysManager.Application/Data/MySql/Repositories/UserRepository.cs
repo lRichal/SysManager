@@ -12,9 +12,10 @@ namespace SysManager.Application.Data.MySql.Repositories
     /// </summary>
     public class UserRepository
     {
-        public UserRepository()
+        private readonly MySqlContext context;
+        public UserRepository(MySqlContext context)
         {
-
+            this.context = context;
         }
 
         public async Task<UserEntity> CreateUser(UserEntity entity)
